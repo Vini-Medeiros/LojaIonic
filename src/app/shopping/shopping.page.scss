@@ -1,0 +1,40 @@
+/* shopping.page.scss */
+
+/* Style the header */
+ion-header {
+    ion-toolbar {
+      --background: #1976D2; /* Change the header background color */
+      --color: #fff; /* Change the text color */
+    }
+  }
+  
+  /* Style the content area */
+  ion-content {
+    background: #f5f5f5; /* Set a background color for the content */
+    ion-list {
+      ion-item {
+        background: #fff; /* Set a background color for each product item */
+        margin: 10px; /* Add margin around each item */
+        border-radius: 8px; /* Round the corners of the items */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to each item */
+        ion-button {
+          --background: #4caf50; /* Change the button background color */
+          --color: #fff; /* Change the button text color */
+          border-radius: 8px; /* Round the button corners */
+          margin-left: 10px; /* Add space between the text and button */
+        }
+      }
+    }
+  }
+  
+  /* Hover effect for product items */
+  ion-item:hover {
+    transform: scale(1.05); /* Slightly increase the item size on hover */
+    transition: transform 0.3s; /* Smooth transition effect */
+  }
+  
+  /* Style the "Add to Cart" button on hover */
+  ion-button:hover {
+    --background: #3880ff; /* Change the button background color on hover */
+  }
+  

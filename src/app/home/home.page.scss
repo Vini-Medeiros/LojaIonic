@@ -1,0 +1,46 @@
+/* Estilização para o formulário de login */
+form {
+  max-width: 300px; /* Largura máxima do formulário */
+  margin: 0 auto; /* Centraliza o formulário horizontalmente */
+  padding: 20px; /* Espaçamento interno do formulário */
+  text-align: center; /* Alinha o conteúdo centralmente */
+  margin-top: 200px;
+}
+
+label {
+  display: block; /* Coloca os rótulos em uma nova linha */
+  margin-bottom: 5px; /* Espaçamento inferior entre os rótulos e os campos de entrada */
+  font-weight: bold; /* Deixa os rótulos em negrito */
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%; /* Ocupa toda a largura disponível */
+  padding: 10px; /* Espaçamento interno nos campos de entrada */
+  margin-bottom: 15px; /* Espaçamento inferior entre os campos de entrada */
+  border: 2px solid rgb(0, 0, 0); /* Borda simples */
+  border-radius: 10px; /* Borda arredondada */
+  display: flex;
+  
+}
+
+button[type="submit"] {
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 5px; /* Borda arredondada */
+  cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+ion-content{
+  --background: url(https://i.pinimg.com/236x/7c/50/f5/7c50f599b0ebf0112c924974bd1d85d1.jpg) 0 0/100% 100% no-repeat;
+}
+header{
+}
+
